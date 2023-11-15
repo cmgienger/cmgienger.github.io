@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="" />
+
+
+<title>Lab Alumni</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="prospective.html">Prospective Students</a>
+</li>
+<li>
+  <a href="students.html">Current Students</a>
+</li>
+<li>
+  <a href="alumni.html">Lab Alumni</a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?hl=en&amp;user=m8kEFvAAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Publications</a>
+</li>
+<li>
+  <a href="https://www.facebook.com/apsuherpetology/photos">Photos</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Lab Alumni</h1>
+<h4 class="author"></h4>
+
+</div>
+
+
+<p><font size="4"> <a href="https://cjhughes926.github.io/">Hughes,
+Connor.</a> (2022). Combining mechanistic and correlative models to
+analyze environmental influences on body size variation in Gila
+monsters.</p>
+<p><a href="https://jocelynstalker.github.io">Stalker, Jocelyn.</a>
+(2022). Spatial ecology of long-lived lizards: Influences of sampling
+intensity and duration on spatial habitat use of Gila monsters.</p>
+<p>Brown, Brandon. (M.S. 2021) Thermally-mediated refuge site selection
+in Mojave Gila Monsters.</p>
+<p>Pierson, Matt. (M.S. 2020) Influence of resource subsidies on the
+spatial ecology of Sonoran Gila monsters</p>
+<p><a href="https://jackkauphusman.wixsite.com/mysite">Kauphusman,
+Jack.</a> (M.S. 2020) Multi-scale habitat selection by Cottonmouth
+snakes.</p>
+<p>Thiem, Lyranda. (M.S. 2020) Energetic costs of oviductal egg
+retention in Eastern Musk Turtles.</p>
+<p><a href="https://mollyarichard.github.io/Website/">Richard,
+Molly.</a> (M.S. 2020) Does corticosterone mediate energy use in
+Cottonmouth Snakes?</p>
+<p>Grady, Jessica. (M.S. 2020) Environmental and ecological influences
+on scale shape in Darters.</p>
+<p>Lochmueller, Kenan. (B.S. 2020) Determinants of the spatial
+distribution of juvenile Cottonmouth snakes. APSU Undergrad Research
+Enrichment Scholar.</p>
+<p>Pierson, Matt. (B.S. 2017) Metabolic response to predation risk in
+Copperhead snakes. 2016 APSU Presidential Research Scholar.</p>
+<p><a href="https://mspencer99.weebly.com/">Spencer, McKayla.</a> (M.S.
+2017) Comparative energetics and responses to feeding of Copperhead and
+Cottonmouth snakes (Agkistrodon). 2017 APSU Outstanding Biology Graduate
+Student.</p>
+<p><a
+href="https://www.sciencebase.gov/catalog/catalogParty/show?partyId=77368">Iacchetta,
+Mike.</a> (M.S. 2017) Stress responses of Eastern Fence Lizards to
+prescribed fire.</p>
+<p><a
+href="https://scholar.google.com/citations?hl=en&amp;user=-NVcSfvJiNsC&amp;view_op=list_works&amp;sortby=pubdate">Hromada,
+Steve.</a> (M.S. 2017) Response of herpetological communities to
+fire-altered landscapes.</p>
+<p><a
+href="https://www.sciencebase.gov/catalog/catalogParty/show?partyId=60957">Mueller,
+Andrew.</a> (M.S. 2017) Seasonal thermoregulation by copperhead snakes
+(Agkistrodon contortrix) in fire-altered landscapes.</p>
+<p><a href="https://www.kwildresearch.com/">Wild, Kris.</a> (M.S. 2016)
+Fire-altered landscapes influence locomotor performance of Eastern Fence
+Lizards (Sceloporus undulatus). 2016 Joint Meetings of Ichthyologists
+and Herpetologists Storer Award for Best Student Poster
+Presentation.</p>
+<p>Flaherty, James. (M.S. 2016) Habitat use by copperhead snakes
+(Agkistrodon contortrix) in fire-altered landscapes.</p>
+<p><a
+href="https://www.coursicle.com/mcla/professors/Jonathan+Clinger/">Clinger,
+John.</a> (M.S. 2016) Energetic costs of reproduction in eastern box
+turtles (Terrapene carolina). 2015 APSU Outstanding Biology Graduate
+Student.</p>
+<p>Bedal, Brooke. (B.S. 2015) Effects of ectoparasite prevalence on
+sprint performance of Eastern Fence Lizards. 2014 APSU Summer
+Undergraduate Research Fellow.</p>
+<p>Owen, Dustin. (M.S. DNF) Impacts of prescribed fire and foraging mode
+on the stress physiology of snakes. 2014 National Science Foundation
+Graduate Research Fellowship.</p>
+<p><a href="https://fulbrightm.wixsite.com/biology">Fulbright,
+Michael.</a> (M.S. 2014) Ontogenetic shifts in habitat selection of
+cottonmouth snakes (Agkistrodon piscivorous).</p>
+<p>Dijkstra, Eveline. (M.S. Veterinary Medicine 2014, Utrecht
+University, Netherlands) Comparison of the digestive passage rate in
+salt-water crocodiles (Crocodylus porosus) using various physical and
+biochemical markers.</p>
+<p>Trinh, Diana. (B.S. 2013) Comparative patterns of thermoregulation
+between copperhead and cottonmouth snakes. 2013 APSU Summer
+Undergraduate Research Fellow.</p>
+<p>Urdiales, Eva. (B.S. 2013) Comparison of resting metabolism among
+eastern box turtles (Terrapene carolina). 2013 APSU Presidential
+Research Scholar. 2013 National Science Foundation Graduate Diversity
+Fellowship.</p>
+<p>Ross, Aaron. (B.S. 2012) Habitat partitioning by sympatric woodland
+snakes. 2012 APSU Summer Undergraduate Research Fellow.</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

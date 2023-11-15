@@ -1,0 +1,25 @@
+name:
+output_dir: #public_html
+navbar:
+  title: "Home"
+  left:
+    - text: "About"
+      href: about.html
+    - text: "Prospective Students"
+      href: prospective.html
+    - text: "Current Students"
+      href: students.html
+    - text: "Lab Alumni"
+      href: alumni.html
+    - text: "Publications"
+      href: https://scholar.google.com/citations?hl=en&user=m8kEFvAAAAAJ&view_op=list_works&sortby=pubdate
+    - text: "Photos"
+      href: https://www.facebook.com/apsuherpetology/photos
+      
+output:
+  html_document:
+    theme: cosmo #https://aksakalli.github.io/jekyll-doc-theme/docs/themes/
+    highlight: textmate
+    include:
+      after_body:
+    
