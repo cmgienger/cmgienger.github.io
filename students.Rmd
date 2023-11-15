@@ -1,0 +1,11 @@
+---
+title: "Current Students"
+author:
+date: 
+output: html_document
+---
+<font size="4">
+Anderson, Alexandra. (M.S. expected 2024). Fecundity selection in Gila monsters.
+
+Edelkind, Jason. (M.S. expected 2024). Geographic and environmental influences on spatial ecology of Gila monsters. 
+

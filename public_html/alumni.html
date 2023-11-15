@@ -12,9 +12,9 @@
 <meta name="author" content="" />
 
 
-<title>C.M. Gienger</title>
+<title>Lab Alumni</title>
 
-<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -142,15 +142,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -179,8 +175,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -188,9 +184,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -273,25 +276,88 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">C.M. Gienger</h1>
+<h1 class="title toc-ignore">Lab Alumni</h1>
 <h4 class="author"></h4>
 
 </div>
 
 
-<p><img src="images/1-sized.jpg" /> <font size="5"></p>
-<p>Professor of Biology and Principal Investigator in the <a
-href="www.apsu.edu/field-biology">Center of Excellence for Field
-Biology</a>, Austin Peay State University. <br> <br> Curator of
-Herpetology, <a
-href="https://www.apsu.edu/biology/naturalhistorycollections/snydermuseumzoology/index.php">David
-Snyder Museum of Zoology</a> </font> <font size="4"> <br> <br>Ph.D.,
-Ecology, Evolution, and Conservation Biology, University of Nevada,
-Reno. <br>M.S., Biology, University of Nevada, Reno. <br>B.S., Biology,
-Central Washington University. <br> <br> P.O. Box 4718<br> Clarksville,
-TN 37044<br> 1-931-221-7076<br> <a
-href="mailto:giengerc@apsu.edu">email: giengerc@apsu.edu</a></p>
-<p></font></p>
+<p><font size="4"> <a href="https://cjhughes926.github.io/">Hughes,
+Connor.</a> (2022). Combining mechanistic and correlative models to
+analyze environmental influences on body size variation in Gila
+monsters.</p>
+<p><a href="https://jocelynstalker.github.io">Stalker, Jocelyn.</a>
+(2022). Spatial ecology of long-lived lizards: Influences of sampling
+intensity and duration on spatial habitat use of Gila monsters.</p>
+<p>Brown, Brandon. (M.S. 2021) Thermally-mediated refuge site selection
+in Mojave Gila Monsters.</p>
+<p>Pierson, Matt. (M.S. 2020) Influence of resource subsidies on the
+spatial ecology of Sonoran Gila monsters</p>
+<p><a href="https://jackkauphusman.wixsite.com/mysite">Kauphusman,
+Jack.</a> (M.S. 2020) Multi-scale habitat selection by Cottonmouth
+snakes.</p>
+<p>Thiem, Lyranda. (M.S. 2020) Energetic costs of oviductal egg
+retention in Eastern Musk Turtles.</p>
+<p><a href="https://mollyarichard.github.io/Website/">Richard,
+Molly.</a> (M.S. 2020) Does corticosterone mediate energy use in
+Cottonmouth Snakes?</p>
+<p>Grady, Jessica. (M.S. 2020) Environmental and ecological influences
+on scale shape in Darters.</p>
+<p>Lochmueller, Kenan. (B.S. 2020) Determinants of the spatial
+distribution of juvenile Cottonmouth snakes. APSU Undergrad Research
+Enrichment Scholar.</p>
+<p>Pierson, Matt. (B.S. 2017) Metabolic response to predation risk in
+Copperhead snakes. 2016 APSU Presidential Research Scholar.</p>
+<p><a href="https://mspencer99.weebly.com/">Spencer, McKayla.</a> (M.S.
+2017) Comparative energetics and responses to feeding of Copperhead and
+Cottonmouth snakes (Agkistrodon). 2017 APSU Outstanding Biology Graduate
+Student.</p>
+<p><a
+href="https://www.sciencebase.gov/catalog/catalogParty/show?partyId=77368">Iacchetta,
+Mike.</a> (M.S. 2017) Stress responses of Eastern Fence Lizards to
+prescribed fire.</p>
+<p><a
+href="https://scholar.google.com/citations?hl=en&amp;user=-NVcSfvJiNsC&amp;view_op=list_works&amp;sortby=pubdate">Hromada,
+Steve.</a> (M.S. 2017) Response of herpetological communities to
+fire-altered landscapes.</p>
+<p><a
+href="https://www.sciencebase.gov/catalog/catalogParty/show?partyId=60957">Mueller,
+Andrew.</a> (M.S. 2017) Seasonal thermoregulation by copperhead snakes
+(Agkistrodon contortrix) in fire-altered landscapes.</p>
+<p><a href="https://www.kwildresearch.com/">Wild, Kris.</a> (M.S. 2016)
+Fire-altered landscapes influence locomotor performance of Eastern Fence
+Lizards (Sceloporus undulatus). 2016 Joint Meetings of Ichthyologists
+and Herpetologists Storer Award for Best Student Poster
+Presentation.</p>
+<p>Flaherty, James. (M.S. 2016) Habitat use by copperhead snakes
+(Agkistrodon contortrix) in fire-altered landscapes.</p>
+<p><a
+href="https://www.coursicle.com/mcla/professors/Jonathan+Clinger/">Clinger,
+John.</a> (M.S. 2016) Energetic costs of reproduction in eastern box
+turtles (Terrapene carolina). 2015 APSU Outstanding Biology Graduate
+Student.</p>
+<p>Bedal, Brooke. (B.S. 2015) Effects of ectoparasite prevalence on
+sprint performance of Eastern Fence Lizards. 2014 APSU Summer
+Undergraduate Research Fellow.</p>
+<p>Owen, Dustin. (M.S. DNF) Impacts of prescribed fire and foraging mode
+on the stress physiology of snakes. 2014 National Science Foundation
+Graduate Research Fellowship.</p>
+<p><a href="https://fulbrightm.wixsite.com/biology">Fulbright,
+Michael.</a> (M.S. 2014) Ontogenetic shifts in habitat selection of
+cottonmouth snakes (Agkistrodon piscivorous).</p>
+<p>Dijkstra, Eveline. (M.S. Veterinary Medicine 2014, Utrecht
+University, Netherlands) Comparison of the digestive passage rate in
+salt-water crocodiles (Crocodylus porosus) using various physical and
+biochemical markers.</p>
+<p>Trinh, Diana. (B.S. 2013) Comparative patterns of thermoregulation
+between copperhead and cottonmouth snakes. 2013 APSU Summer
+Undergraduate Research Fellow.</p>
+<p>Urdiales, Eva. (B.S. 2013) Comparison of resting metabolism among
+eastern box turtles (Terrapene carolina). 2013 APSU Presidential
+Research Scholar. 2013 National Science Foundation Graduate Diversity
+Fellowship.</p>
+<p>Ross, Aaron. (B.S. 2012) Habitat partitioning by sympatric woodland
+snakes. 2012 APSU Summer Undergraduate Research Fellow.</p>
 
 
 

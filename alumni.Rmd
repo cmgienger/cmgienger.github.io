@@ -1,0 +1,54 @@
+---
+title: "Lab Alumni"
+author:
+date: 
+output: html_document
+---
+<font size="4">
+[Hughes, Connor.](https://cjhughes926.github.io/) (2022). Combining mechanistic and correlative models to analyze environmental influences on body size variation in Gila monsters.
+
+[Stalker, Jocelyn.](https://jocelynstalker.github.io) (2022). Spatial ecology of long-lived lizards: Influences of sampling intensity and duration on spatial habitat use of Gila monsters.
+
+Brown, Brandon. (M.S. 2021) Thermally-mediated refuge site selection in Mojave Gila Monsters.
+
+Pierson, Matt. (M.S. 2020) Influence of resource subsidies on the spatial ecology of Sonoran Gila monsters
+
+[Kauphusman, Jack.](https://jackkauphusman.wixsite.com/mysite) (M.S. 2020) Multi-scale habitat selection by Cottonmouth snakes.
+
+Thiem, Lyranda. (M.S. 2020) Energetic costs of oviductal egg retention in Eastern Musk Turtles.
+
+[Richard, Molly.](https://mollyarichard.github.io/Website/) (M.S. 2020) Does corticosterone mediate energy use in Cottonmouth Snakes?
+
+Grady, Jessica. (M.S. 2020) Environmental and ecological influences on scale shape in Darters.
+
+Lochmueller, Kenan. (B.S. 2020) Determinants of the spatial distribution of juvenile Cottonmouth snakes. APSU Undergrad Research Enrichment Scholar.
+
+Pierson, Matt. (B.S. 2017) Metabolic response to predation risk in Copperhead snakes. 2016 APSU Presidential Research Scholar.
+
+[Spencer, McKayla.](https://mspencer99.weebly.com/) (M.S. 2017) Comparative energetics and responses to feeding of Copperhead and Cottonmouth snakes (Agkistrodon). 2017 APSU Outstanding Biology Graduate Student.
+
+[Iacchetta, Mike.](https://www.sciencebase.gov/catalog/catalogParty/show?partyId=77368) (M.S. 2017) Stress responses of Eastern Fence Lizards to prescribed fire.
+
+[Hromada, Steve.](https://scholar.google.com/citations?hl=en&user=-NVcSfvJiNsC&view_op=list_works&sortby=pubdate) (M.S. 2017) Response of herpetological communities to fire-altered landscapes.
+
+[Mueller, Andrew.](https://www.sciencebase.gov/catalog/catalogParty/show?partyId=60957) (M.S. 2017) Seasonal thermoregulation by copperhead snakes (Agkistrodon contortrix) in fire-altered landscapes.
+
+[Wild, Kris.](https://www.kwildresearch.com/) (M.S. 2016) Fire-altered landscapes influence locomotor performance of Eastern Fence Lizards (Sceloporus undulatus). 2016 Joint Meetings of Ichthyologists and Herpetologists Storer Award for Best Student Poster Presentation.
+
+Flaherty, James. (M.S. 2016) Habitat use by copperhead snakes (Agkistrodon contortrix) in fire-altered landscapes.
+
+[Clinger, John.](https://www.coursicle.com/mcla/professors/Jonathan+Clinger/) (M.S. 2016) Energetic costs of reproduction in eastern box turtles (Terrapene carolina). 2015 APSU Outstanding Biology Graduate Student.
+
+Bedal, Brooke. (B.S. 2015) Effects of ectoparasite prevalence on sprint performance of Eastern Fence Lizards. 2014 APSU Summer Undergraduate Research Fellow.
+
+Owen, Dustin. (M.S. DNF) Impacts of prescribed fire and foraging mode on the stress physiology of snakes. 2014 National Science Foundation Graduate Research Fellowship.
+
+[Fulbright, Michael.](https://fulbrightm.wixsite.com/biology) (M.S. 2014) Ontogenetic shifts in habitat selection of cottonmouth snakes (Agkistrodon piscivorous).
+
+Dijkstra, Eveline. (M.S. Veterinary Medicine 2014, Utrecht University, Netherlands) Comparison of the digestive passage rate in salt-water crocodiles (Crocodylus porosus) using various physical and biochemical markers.
+
+Trinh, Diana. (B.S. 2013) Comparative patterns of thermoregulation between copperhead and cottonmouth snakes. 2013 APSU Summer Undergraduate Research Fellow.
+
+Urdiales, Eva. (B.S. 2013) Comparison of resting metabolism among eastern box turtles (Terrapene carolina). 2013 APSU Presidential Research Scholar. 2013 National Science Foundation Graduate Diversity Fellowship.
+
+Ross, Aaron. (B.S. 2012) Habitat partitioning by sympatric woodland snakes. 2012 APSU Summer Undergraduate Research Fellow.

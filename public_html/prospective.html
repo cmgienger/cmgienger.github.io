@@ -9,12 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="" />
 
 
-<title>C.M. Gienger</title>
+<title>Interested in Joining the Lab?</title>
 
-<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -142,15 +141,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -179,8 +174,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -188,9 +183,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -273,25 +275,80 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">C.M. Gienger</h1>
-<h4 class="author"></h4>
+<h1 class="title toc-ignore">Interested in Joining the Lab?</h1>
 
 </div>
 
 
-<p><img src="images/1-sized.jpg" /> <font size="5"></p>
-<p>Professor of Biology and Principal Investigator in the <a
-href="www.apsu.edu/field-biology">Center of Excellence for Field
-Biology</a>, Austin Peay State University. <br> <br> Curator of
-Herpetology, <a
-href="https://www.apsu.edu/biology/naturalhistorycollections/snydermuseumzoology/index.php">David
-Snyder Museum of Zoology</a> </font> <font size="4"> <br> <br>Ph.D.,
-Ecology, Evolution, and Conservation Biology, University of Nevada,
-Reno. <br>M.S., Biology, University of Nevada, Reno. <br>B.S., Biology,
-Central Washington University. <br> <br> P.O. Box 4718<br> Clarksville,
-TN 37044<br> 1-931-221-7076<br> <a
-href="mailto:giengerc@apsu.edu">email: giengerc@apsu.edu</a></p>
-<p></font></p>
+<p><img src="images/3-sized.jpg" /></p>
+<p><font size="4">Thank you for your interest in graduate studies at
+Austin Peay State University and in the
+<a href="http://www.apsu.edu/field-biology">Center of Excellence for
+Field Biology</a>. I do not always have space or funding for new
+students, but I usually try to make space for well‐qualified applicants.
+The best way to find out if there are openings for the upcoming year is
+to email me (<a href="mailto:giengerc@apsu.edu"
+class="email">giengerc@apsu.edu</a>).</p>
+<p><strong>What makes a good M.S. application to APSU?</strong></p>
+<p>• a good sense of one’s research interests; your interests should
+overlap at least somewhat with mine</p>
+<p>• hands‐on field or lab experience</p>
+<p>• strong, supportive letters of recommendation from professors or
+supervisors who know you well enough to comment on your academic
+abilities or research experience</p>
+<p>• competitive academic record (GPA &gt; 3.0, GRE scores &gt;70th
+percentile)</p>
+<p><strong>What qualities should you have in order to be successful at
+APSU?</strong></p>
+<p>Successful students:</p>
+<p>• make their research and graduate program their top priority (see
+statement below)</p>
+<p>• are willing to work hard and to learn independently, without direct
+supervision</p>
+<p>• are proactive in gaining new tools (e.g. GIS, statistics,
+analytical methods) that will be needed to conduct and complete their
+research</p>
+<p>• are strong writers or are willing to work and receive criticism to
+become better</p>
+<p>• are genuinely interested in their study organisms/system, as well
+as the broader theoretical questions that frame their work</p>
+<p>• are willing to teach during the academic year (most of our students
+work as TAs in the Department of Biology or RAs in the Center of
+Excellence for Field Biology)</p>
+<p>• are willing to apply for internal and external funding to help
+support their work</p>
+<p>• have a good sense of humor and enjoy working in the field/lab</p>
+<p>Feel free to contact me if you have any questions. <br> <br> <br>
+<br> <br> This following statement (abridged) by Dr. Laurie Vitt
+(Emeritus Curator of Reptiles at the University of Oklahoma) summarizes
+perfectly what can be expected for people interested in pursuing
+graduate study and research careers. I agree with Dr. Vitt
+whole-heartedly and have re-printed his words here.</p>
+<p><em>“I have always expected students to be self driven, highly
+motivated, independent, and most of all, very serious about graduate
+school. A very limited job market means that only those graduate
+students who establish their visibility in the highly competitive market
+will be able to pursue academic careers with research opportunities. I
+wish you all success, and I add that a serious commitment to research,
+such that it becomes your highest priority while in graduate school is
+the single most important thing you can do to increase your chances of
+being competitive.</em></p>
+<p><em>Students conducting field research should schedule their lives
+around their field schedule, not visa versa. Students should also
+design, carry out, and complete their research in a timely fashion
+demonstrating creativity and competence. If this is not your frame of
+mind, then you would be much better off to pursue a career that offers
+decent financial incentives, allows you to participate in many other
+activities, and allows you to choose where you will live.</em></p>
+<p><em>If you are still highly motivated, then a search of the internet
+will give you many ideas regarding graduate programs in Herpetology. I
+urge you to critically examine the research records of the faculty that
+you view as potential advisors. You will be much more likely to hone
+your research skills and publish in top-tier scientific journals (thus
+establishing a name for yourself) if you align yourself with people who
+are actively doing it themselves. Finally, don’t be intimidated, and if
+you are, then maybe you should look at other career options.”</em>
+</font></p>
 
 
 

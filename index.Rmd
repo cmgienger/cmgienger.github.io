@@ -1,0 +1,27 @@
+---
+title: "C.M. Gienger"
+author: 
+date:
+output: html_document
+---
+![](images/1-sized.jpg)
+<font size="5">
+
+Professor of Biology and Principal Investigator in the [Center of Excellence for Field Biology](www.apsu.edu/field-biology), Austin Peay State University. 
+<br>
+<br>
+Curator of Herpetology, [David Snyder Museum of Zoology](https://www.apsu.edu/biology/naturalhistorycollections/snydermuseumzoology/index.php)
+</font>
+<font size="4">
+<br>
+<br>Ph.D., Ecology, Evolution, and Conservation Biology, University of Nevada, Reno. 
+<br>M.S., Biology, University of Nevada, Reno.
+<br>B.S., Biology, Central Washington University.
+<br>
+<br>
+P.O. Box 4718<br>
+Clarksville, TN 37044<br>
+1-931-221-7076<br>
+[email: giengerc@apsu.edu](mailto:giengerc@apsu.edu)
+
+</font>
