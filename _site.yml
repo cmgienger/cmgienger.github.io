@@ -1,5 +1,6 @@
 name:
-output_dir: .
+output_dir: . # "." to keep all content within the root website directory alongside the source code.
+
 navbar:
   title: "Home"
   left:
