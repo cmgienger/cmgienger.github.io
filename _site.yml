@@ -1,5 +1,5 @@
 name:
-output_dir: #public_html
+output_dir:
 navbar:
   title: "Home"
   left:
