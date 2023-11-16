@@ -1,5 +1,5 @@
 name:
-output_dir: 
+output_dir: . #up one level
 navbar:
   title: "Home"
   left:
