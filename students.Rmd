@@ -4,13 +4,17 @@ author:
 date: 
 output: html_document
 ---
-<font size="4">
-Anderson, Alexandra. (M.S. expected 2024). Fecundity selection in Gila monsters.
 
-Edelkind, Jason. (M.S. expected 2024). Geographic and environmental influences on spatial ecology of Gila monsters.
+<font size="4"> [Anderson, Alexandra.](https://aeanderson07.github.io/AlexandraAnderson/)
+(M.S. expected 2024).
+Fecundity selection in Gila monsters.
 
-Rodriguez, Francisco. (M.S. expected 2025) Ecological niche modeling and species-specific distributions of helodermatid lizards (Genus Heloderma).
+[Edelkind, Jason.](https://jasonedelkind.github.io/github12/)
+(M.S. expected 2024).
+Geographic and environmental influences on spatial ecology of Gila monsters.
 
-Gehman, Carson. (M.S. expected 2025) Using species distribution modeling to evaluate priority areas for conservation and management of Gila monsters.
+Rodriguez, Francisco.
+(M.S. expected 2025) Ecological niche modeling and species-specific distributions of helodermatid lizards (Genus Heloderma).
 
-
+Gehman, Carson.
+(M.S. expected 2025) Using species distribution modeling to evaluate priority areas for conservation and management of Gila monsters.
