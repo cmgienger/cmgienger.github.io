@@ -5,6 +5,11 @@ date:
 output: html_document
 ---
 <font size="4">
+[Anderson, Alexandra.](https://aeanderson07.github.io/AlexandraAnderson/)
+(M.S. 2024). Fecundity selection in Gila monsters.
+
+[Edelkind, Jason.](https://jasonedelkind.github.io/github12/) (M.S. 2024). Geographic and environmental influences on spatial ecology of Gila monsters.
+
 [Hughes, Connor.](https://cjhughes926.github.io/) (2022). Combining mechanistic and correlative models to analyze environmental influences on body size variation in Gila monsters.
 
 [Stalker, Jocelyn.](https://jocelynstalker.github.io) (2022). Spatial ecology of long-lived lizards: Influences of sampling intensity and duration on spatial habitat use of Gila monsters.
