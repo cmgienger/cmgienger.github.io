@@ -6,10 +6,6 @@ output: html_document
 ---
 
 <font size="4"> 
-Rodriguez, Francisco. (M.S. expected 2025) Ecological niche modeling of helodermatid lizards (Genus Heloderma).
-
-Gehman, Carson. (M.S. expected 2025) Using species distribution modeling to evaluate priority areas for conservation and management of Gila monsters.
-
 Solis-Stokes, Sienna (M.S. expected 2026) Where are the monsters? Occupancy and detection of Gila Monsters in southern Utah.
 
 Stratton, Collin (M.S. expected 2026) Illuminating the elusive: Occupancy modeling of Gila Monsters in southern Nevada.
