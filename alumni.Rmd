@@ -7,7 +7,7 @@ output: html_document
 <font size="4">
 Gehman, Carson. (M.S. 2025) Using species distribution modeling to evaluate priority areas for conservation and management of Gila monsters.
 
-Rodriguez, Xavi. (M.S. 2025) Habitat niche separation between Gila monsters and Beaded lizards in Sonora, Mexico.
+Rodriguez, Xavier. (M.S. 2025) Habitat niche separation between Gila monsters and Beaded lizards in Sonora, Mexico.
 
 [Anderson, Alexandra.](https://aeanderson07.github.io/AlexandraAnderson/)
 (M.S. 2024). Fecundity selection in Gila monsters.
@@ -22,7 +22,7 @@ Brown, Brandon. (M.S. 2021) Thermally-mediated refuge site selection in Mojave G
 
 Pierson, Matt. (M.S. 2020) Influence of resource subsidies on the spatial ecology of Sonoran Gila monsters
 
-[Kauphusman, Jack.](https://jackkauphusman.wixsite.com/mysite) (M.S. 2020) Multi-scale habitat selection by Cottonmouth snakes.
+[Kauphusman, Jack.](https://jackkauphusman.wixsite.com/biologist) (M.S. 2020) Multi-scale habitat selection by Cottonmouth snakes.
 
 Thiem, Lyranda. (M.S. 2020) Energetic costs of oviductal egg retention in Eastern Musk Turtles.
 
