@@ -5,7 +5,7 @@ date:
 output: html_document
 ---
 <font size="4">
-Gehman, Carson. (M.S. 2025) Using species distribution modeling to evaluate priority areas for conservation and management of Gila monsters.
+[Gehman, Carson.](https://cgehman.github.io/) (M.S. 2025) Using species distribution modeling to evaluate priority areas for conservation and management of Gila monsters.
 
 Rodriguez, Xavier. (M.S. 2025) Habitat niche separation between Gila monsters and Beaded lizards in Sonora, Mexico.
 
