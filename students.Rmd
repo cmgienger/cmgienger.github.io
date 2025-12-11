@@ -6,6 +6,6 @@ output: html_document
 ---
 
 <font size="4"> 
-Solis-Stokes, Sienna (M.S. expected 2026) Where are the monsters? Occupancy and detection of Gila Monsters in southern Utah.
+[Solis-Stokes, Sienna](https://ssolisstokes.github.io/Webpage/) (M.S. expected 2026) Where are the monsters? Occupancy and detection of Gila Monsters in southern Utah.
 
-Stratton, Collin (M.S. expected 2026) Illuminating the elusive: Occupancy modeling of Gila Monsters in southern Nevada.
+[Stratton, Collin](https://strattoncs.github.io/) (M.S. expected 2026) Illuminating the elusive: Occupancy modeling of Gila Monsters in southern Nevada.
